@@ -5,9 +5,9 @@ This repository contains scripts, relying on `docker-compose`, used to build
 
 ## Package building
 
-Execute the `make` command to build the package:
+Execute the following `make` command to build the package:
 ```console
-$ make
+$ make -C rpm
 ```
 
-Generated package is located into the `build/` directory.
+Generated package is located into the `rpm/build/` directory.
