@@ -10,7 +10,7 @@ Summary:       TPC-C benchmark kit - tools
 License:       The Artistic License
 Source:        dbttools-%{version}.tar.gz
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-#Requires:      libpq
+Requires:      R-core
 
 
 %description
