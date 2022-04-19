@@ -36,8 +36,11 @@ make install
 %{installpath}/dbt-plot-transaction-distribution
 %{installpath}/dbt-process-pidstat
 %{installpath}/dbt-pgsql-generate-db-html
+%{installpath}/dbt-pgsql-generate-db-report
 %{installpath}/dbt-pgsql-generate-index-html
+%{installpath}/dbt-pgsql-generate-index-report
 %{installpath}/dbt-pgsql-generate-table-html
+%{installpath}/dbt-pgsql-generate-table-report
 %{installpath}/dbt-pgsql-plot-database-stats
 %{installpath}/dbt-pgsql-plot-index-stats
 %{installpath}/dbt-pgsql-plot-table-stats
