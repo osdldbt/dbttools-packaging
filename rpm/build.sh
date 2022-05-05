@@ -8,7 +8,7 @@ dnf update -y
 dnf install rpm-build redhat-rpm-config yum-utils -y
 dnf install git cmake gcc gcc-c++ make  -y
 yum-builddep -y /workspace/rpm/dbttools.spec
-git clone https://git.code.sf.net/p/osdldbt/dbttools /tmp/dbttools
+git clone https://github.com/osdldbt/dbttools.git /tmp/dbttools
 cd /tmp/dbttools
 git archive --format=tar.gz --prefix=dbttools-${VERSION}/ ${TAG} > /workspace/dbttools-${VERSION}.tar.gz
 cd /
