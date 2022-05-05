@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  dbttools-centos8:
-    image: centos:8
+  dbttools-rocky8:
+    image: rockylinux:8
     environment:
     - VERSION
     volumes:
