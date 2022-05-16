@@ -34,6 +34,7 @@ make install
 %{installpath}/dbt-plot-sar-net
 %{installpath}/dbt-plot-sar-swap
 %{installpath}/dbt-plot-transaction-distribution
+%{installpath}/dbt-plot-transaction-rate
 %{installpath}/dbt-process-pidstat
 %{installpath}/dbt-pgsql-generate-db-html
 %{installpath}/dbt-pgsql-generate-db-report
