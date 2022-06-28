@@ -1,8 +1,8 @@
 #!/bin/bash -eux
 
 # dbttools version
-VERSION="0.3.0"
-TAG="v0.3.0"
+VERSION="0.3.1"
+TAG="v${VERSION}"
 
 dnf update -y
 dnf install rpm-build redhat-rpm-config yum-utils -y
